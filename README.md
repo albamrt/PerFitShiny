@@ -18,3 +18,13 @@ and then the app can be directly invoked using the command:
 ```R
 shiny::runGitHub("PerFitShiny", "albamrt")
 ```
+The app will automatically load these packages. If you would like to interactively run the code in your own R session, then you 
+will need first to load the packages using the commands:
+```r
+library("shiny")
+library("shinythemes")
+library("PerFit")
+library("plotly")
+library("ltm")
+library("DT")
+```
