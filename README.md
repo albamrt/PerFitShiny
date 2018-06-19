@@ -3,5 +3,5 @@ This repository contains a [shiny](http://shiny.rstudio.com/) application that a
 
 In order to run the app the easiest way would be:
 ```R
-shiny::runGitHub("shiny_example", "rstudio")
+shiny::runGitHub("PerFitShiny", "albamrt")
 ```
