@@ -8,10 +8,12 @@ The app requires [R](http://cran.r-project.org/) and the following packages:
 * [plotly](https://cran.r-project.org/package=plotly)
 * [ltm](https://cran.r-project.org/package=ltm)
 * [DT](https://cran.r-project.org/package=DT)
+* [mokken](https://cran.r-project.org/package=mokken)
+
 
 These packages can be installed using the following function call:
 ```r
-install.packages(c("shiny", "shinythemes", "PerFit", "plotly", "ltm", "DT"), 
+install.packages(c("shiny", "shinythemes", "PerFit", "plotly", "ltm", "DT", "mokken"), 
                  dependencies = TRUE)
 ```
 and then the app can be directly invoked using the command:
