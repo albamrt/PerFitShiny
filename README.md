@@ -9,6 +9,8 @@ The app requires [R](http://cran.r-project.org/) and the following packages:
 * [ltm](https://cran.r-project.org/package=ltm)
 * [DT](https://cran.r-project.org/package=DT)
 * [mokken](https://cran.r-project.org/package=mokken)
+* [pander](https://cran.r-project.org/package=pander)
+
 
 
 These packages can be installed using the following function call:
