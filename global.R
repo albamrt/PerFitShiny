@@ -5,6 +5,7 @@ require(plotly)
 require(ltm)
 require(DT)
 require(utils)
+require(mokken)
 
 
 # col <- colorRampPalette(c("snow3", "yellowgreen"))(ncol(prop))
