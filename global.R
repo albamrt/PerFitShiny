@@ -6,7 +6,7 @@ require(ltm)
 require(DT)
 require(utils)
 require(mokken)
-
+require(pander)
 
 # col <- colorRampPalette(c("snow3", "yellowgreen"))(ncol(prop))
 col <- c("yellowgreen", "snow3")
