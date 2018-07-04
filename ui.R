@@ -1,5 +1,5 @@
-library(plotly)
-library(shinythemes)
+library("plotly")
+library("shinythemes")
 
 fluidPage(
   theme = shinytheme("yeti"),
