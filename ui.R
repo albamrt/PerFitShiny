@@ -1,3 +1,6 @@
+library(plotly)
+library(shinythemes)
+
 fluidPage(
   theme = shinytheme("yeti"),
   tags$style(mycss),
