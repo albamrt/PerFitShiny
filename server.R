@@ -84,9 +84,15 @@ shown below."),'<img src="ex.png" height="90px" width="160px" class="center">')
                                     x$Cutoff.CI[2]}else{
                                       x$Cutoff.CI[1]})}))
   
-  Flagged.all <- reactive(lapply(seq_along(Indexs()), function(x) {
+  Flagged.all <- reactive(
+    {
+    aux <- lapply(seq_along(Indexs()), function(x) {
     flagged.resp(Indexs()[[x]], UDlvl = cutoff.value.all()[[x]], ord = TRUE)
-  }))
+    })
+    names(aux) <- c("C.Sato", "Cstar", "U3", "Ht", "lz")
+    aux
+    }
+  )
   
   Flagged <- reactive(switch(input$index,
                             "C" = Flagged.all()[["C.Sato"]],
