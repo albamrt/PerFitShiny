@@ -10,12 +10,14 @@ The app requires [R](http://cran.r-project.org/) and the following packages:
 * [DT](https://cran.r-project.org/package=DT)
 * [mokken](https://cran.r-project.org/package=mokken)
 * [pander](https://cran.r-project.org/package=pander)
+* [mnormt](https://CRAN.R-project.org/package=mnormt)
+* [psych] (https://CRAN.R-project.org/package=psych)
 
 
 
 These packages can be installed using the following function call:
 ```r
-install.packages(c("shiny", "shinythemes", "PerFit", "plotly", "ltm", "DT", "mokken", "pander"), 
+install.packages(c("shiny", "shinythemes", "PerFit", "plotly", "ltm", "DT", "mokken", "pander", "mnormt", "psych"), 
                  dependencies = TRUE)
 ```
 and then the app can be directly invoked using the command:
