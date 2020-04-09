@@ -11,7 +11,7 @@ The app requires [R](http://cran.r-project.org/) and the following packages:
 * [mokken](https://cran.r-project.org/package=mokken)
 * [pander](https://cran.r-project.org/package=pander)
 * [mnormt](https://CRAN.R-project.org/package=mnormt)
-* [psych] (https://CRAN.R-project.org/package=psych)
+* [psych](https://CRAN.R-project.org/package=psych)
 
 
 
@@ -33,4 +33,9 @@ library("PerFit")
 library("plotly")
 library("ltm")
 library("DT")
+library("mokken")
+library("pander")
+library("mnormt")
+library("psych")
+
 ```
